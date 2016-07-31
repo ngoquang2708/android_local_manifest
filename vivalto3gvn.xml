@@ -33,9 +33,6 @@
 	<remove-project name="CyanogenMod/android_external_tinyalsa" />
 	<project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="cm-13.0"/>
 
-	<remove-project name="CyanogenMod/android_external_sepolicy" />
-	<project path="external/sepolicy" name="ngoquang2708/android_external_sepolicy" remote="private" revision="cm-13.0"/>
-
 	<project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0"/>
 
 	<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="cm-13.0"/>
