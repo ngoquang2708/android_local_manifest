@@ -27,6 +27,9 @@
 	<remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
 	<project path="packages/apps/Bluetooth" name="ngoquang2708/android_packages_apps_Bluetooth" remote="private" revision="cm-13.0"/>
 
+	<remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
+	<project path="packages/apps/CellBroadcastReceiver" name="ngoquang2708/android_packages_apps_CellBroadcastReceiver" remote="private" revision="cm-13.0"/>
+
 	<remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
 	<project path="packages/apps/FMRadio" name="ngoquang2708/android_packages_apps_FMRadio" remote="private" revision="cm-13.0"/>
 
