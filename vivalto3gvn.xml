@@ -46,7 +46,7 @@
 
 	<project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="cm-13.0"/>
 
-	<project path="hardware/samsung/sprd-common" name="ngoquang2708/android_hardware_samsung_sprd-common" remote="private" revision="cm-13.0"/>
+	<project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="cm-13.0"/>
 
 	<project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="cm-13.0"/>
 
