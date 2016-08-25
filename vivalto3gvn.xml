@@ -18,14 +18,18 @@
 */
 -->
 <manifest>
+	<!--
 	<remove-project name="CyanogenMod/android_frameworks_base" />
 	<project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="staging/cm-14.0"/>
+	-->
 
 	<remove-project name="CyanogenMod/android_frameworks_native" />
 	<project path="frameworks/native" name="ngoquang2708/android_frameworks_native" remote="private" revision="staging/cm-14.0"/>
 
+	<!--
 	<remove-project name="CyanogenMod/android_frameworks_av" />
 	<project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="staging/cm-14.0"/>
+	-->
 
 	<remove-project name="CyanogenMod/android_hardware_libhardware" />
 	<project path="hardware/libhardware" name="ngoquang2708/android_hardware_libhardware" remote="private" revision="staging/cm-14.0"/>
@@ -41,8 +45,10 @@
 	<remove-project name="CyanogenMod/android_system_media" />
 	<project path="system/media" name="ngoquang2708/android_system_media" remote="private" revision="staging/cm-14.0"/>
 
+	<!--
 	<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="staging/cm-14.0"/>
+	-->
 
 	<!--
 	<remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
