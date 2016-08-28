@@ -30,9 +30,6 @@
 	<remove-project name="CyanogenMod/android_hardware_libhardware" />
 	<project path="hardware/libhardware" name="ngoquang2708/android_hardware_libhardware" remote="private" revision="staging/cm-14.0"/>
 
-	<remove-project name="CyanogenMod/android_system_bt" />
-	<project path="system/bt" name="ngoquang2708/android_system_bt" remote="private" revision="staging/cm-14.0"/>
-
 	<remove-project name="CyanogenMod/android_system_core" />
 	<project path="system/core" name="ngoquang2708/android_system_core" remote="private" revision="staging/cm-14.0"/>
 
@@ -41,9 +38,6 @@
 
 	<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="staging/cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
-	<project path="packages/apps/Bluetooth" name="ngoquang2708/android_packages_apps_Bluetooth" remote="private" revision="staging/cm-14.0"/>
 
 	<!-- Projects that did not have staging/cm-14.0 branch yet -->
 	<remove-project name="CyanogenMod/android_packages_apps_Browser2" />
@@ -54,11 +48,6 @@
 	<!--
 	<remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
 	<project path="packages/apps/CellBroadcastReceiver" name="ngoquang2708/android_packages_apps_CellBroadcastReceiver" remote="private" revision="staging/cm-14.0"/>
-	-->
-
-	<!--
-	<remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
-	<project path="packages/apps/FMRadio" name="ngoquang2708/android_packages_apps_FMRadio" remote="private" revision="staging/cm-14.0"/>
 	-->
 
 	<remove-project name="CyanogenMod/android_external_tinyalsa" />
