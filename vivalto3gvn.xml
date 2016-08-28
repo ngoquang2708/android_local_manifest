@@ -45,6 +45,12 @@
 	<remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
 	<project path="packages/apps/Bluetooth" name="ngoquang2708/android_packages_apps_Bluetooth" remote="private" revision="staging/cm-14.0"/>
 
+	<!-- Projects that did not have staging/cm-14.0 branch yet -->
+	<remove-project name="CyanogenMod/android_packages_apps_Browser2" />
+	<remove-project name="CyanogenMod/android_abi_cpp" />
+	<remove-project name="CyanogenMod/android_device_generic_goldfish" />
+	<remove-project name="CyanogenMod/android_external_libusbx" />
+
 	<!--
 	<remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
 	<project path="packages/apps/CellBroadcastReceiver" name="ngoquang2708/android_packages_apps_CellBroadcastReceiver" remote="private" revision="staging/cm-14.0"/>
