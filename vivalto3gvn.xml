@@ -45,6 +45,9 @@
 	<remove-project name="CyanogenMod/android_device_generic_goldfish" />
 	<remove-project name="CyanogenMod/android_external_libusbx" />
 
+	<!-- Projects that have errors -->
+	<remove-project name="CyanogenMod/android_packages_apps_Messaging" />
+
 	<!--
 	<remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
 	<project path="packages/apps/CellBroadcastReceiver" name="ngoquang2708/android_packages_apps_CellBroadcastReceiver" remote="private" revision="staging/cm-14.0"/>
