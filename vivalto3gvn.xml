@@ -58,9 +58,7 @@
 	<remove-project name="CyanogenMod/android_external_tinyalsa" />
 	<project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="staging/cm-14.0"/>
 
-	<!--
-	<project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="staging/cm-14.0"/>
-	-->
+	<project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0"/>
 
 	<!--
 	<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="staging/cm-14.0"/>
