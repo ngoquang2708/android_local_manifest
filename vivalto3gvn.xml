@@ -56,6 +56,9 @@
 	<remove-project name="CyanogenMod/android_external_tinyalsa" />
 	<project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="staging/cm-14.0"/>
 
+	<remove-project name="platform/system/sepolicy" />
+	<project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" />
+
 	<project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0"/>
 
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-6.0.1_r61" />
