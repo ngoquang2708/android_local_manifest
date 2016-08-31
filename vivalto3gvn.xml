@@ -21,9 +21,6 @@
 	<remove-project name="CyanogenMod/android_frameworks_base" />
 	<project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="staging/cm-14.0"/>
 
-	<remove-project name="CyanogenMod/android_frameworks_native" />
-	<project path="frameworks/native" name="ngoquang2708/android_frameworks_native" remote="private" revision="staging/cm-14.0"/>
-
 	<remove-project name="CyanogenMod/android_frameworks_av" />
 	<project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="staging/cm-14.0"/>
 
