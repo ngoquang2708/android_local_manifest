@@ -37,7 +37,6 @@
 	<project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="staging/cm-14.0"/>
 
 	<!-- Projects that did not have staging/cm-14.0 branch yet -->
-	<remove-project name="CyanogenMod/android_packages_apps_Browser2" />
 	<remove-project name="CyanogenMod/android_abi_cpp" />
 	<remove-project name="CyanogenMod/android_external_libusbx" />
 
