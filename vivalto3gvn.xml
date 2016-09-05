@@ -53,7 +53,7 @@
 	<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="staging/cm-14.0"/>
 	-->
 
-	<project path="kernel/samsung/vivalto3gvn" name="ngoquang2708/android_kernel_samsung_vivalto3gvn" remote="private" revision="staging/cm-14.0"/>
+	<project path="kernel/samsung/vivalto3gvn" name="ngoquang2708/android_kernel_samsung_vivalto3gvn" remote="private" revision="cm-14.0"/>
 
 	<project path="device/samsung/vivalto3gvn" name="ngoquang2708/android_device_samsung_vivalto3gvn" remote="private" revision="staging/cm-14.0"/>
 
