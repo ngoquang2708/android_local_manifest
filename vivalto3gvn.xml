@@ -57,11 +57,11 @@
 
 	<project path="device/samsung/vivalto3gvn" name="ngoquang2708/android_device_samsung_vivalto3gvn" remote="private" revision="staging/cm-14.0"/>
 
-	<project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="staging/cm-14.0"/>
+	<project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="cm-14.0"/>
 
-	<project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="staging/cm-14.0"/>
+	<project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="cm-14.0"/>
 
-	<project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="staging/cm-14.0"/>
+	<project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="cm-14.0"/>
 
 	<project path="bootable/recovery-twrp" name="ngoquang2708/android_bootable_recovery-twrp" remote="private" revision="cm-14.0"/>
 </manifest>
