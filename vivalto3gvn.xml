@@ -1,65 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-/*
-** Copyright 2016 The Android Open Source Project
-** Copyright 2016 The CyanogenMod Project
-**
-** Licensed under the Apache License, Version 2.0 (the "License");
-** you may not use this file except in compliance with the License.
-** You may obtain a copy of the License at
-**
-**     http://www.apache.org/licenses/LICENSE-2.0
-**
-** Unless required by applicable law or agreed to in writing, software
-** distributed under the License is distributed on an "AS IS" BASIS,
-** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-** See the License for the specific language governing permissions and
-** limitations under the License.
-*/
+     Copyright (C) 2016 The Android Open Source Project
+     Copyright (C) 2016 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
 <manifest>
-	<remove-project name="CyanogenMod/android_frameworks_base" />
-	<project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="staging/cm-14.0"/>
+  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_external_tinyalsa" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_system_media" />
 
-	<remove-project name="CyanogenMod/android_frameworks_av" />
-	<project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="staging/cm-14.0"/>
+  <project path="build" name="ngoquang2708/android_build" remote="private" revision="staging/cm-14.0"/>
+  <project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="staging/cm-14.0"/>
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0"/>
+  <project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="staging/cm-14.0"/>
+  <project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="staging/cm-14.0"/>
+  <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="staging/cm-14.0"/>
+  <project path="hardware/libhardware" name="ngoquang2708/android_hardware_libhardware" remote="private" revision="staging/cm-14.0"/>
+  <project path="system/core" name="ngoquang2708/android_system_core" remote="private" revision="staging/cm-14.0"/>
+  <project path="system/media" name="ngoquang2708/android_system_media" remote="private" revision="staging/cm-14.0"/>
 
-	<remove-project name="CyanogenMod/android_hardware_libhardware" />
-	<project path="hardware/libhardware" name="ngoquang2708/android_hardware_libhardware" remote="private" revision="staging/cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_system_core" />
-	<project path="system/core" name="ngoquang2708/android_system_core" remote="private" revision="staging/cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_system_media" />
-	<project path="system/media" name="ngoquang2708/android_system_media" remote="private" revision="staging/cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-	<project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="staging/cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
-	<project path="packages/apps/CellBroadcastReceiver" name="ngoquang2708/android_packages_apps_CellBroadcastReceiver" remote="private" revision="staging/cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_external_tinyalsa" />
-	<project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="staging/cm-14.0"/>
-
-	<project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0"/>
-
-	<remove-project name="CyanogenMod/android_build" />
-	<project path="build" name="ngoquang2708/android_build" remote="private" revision="staging/cm-14.0"/>
-
-	<!--
-	<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="staging/cm-14.0"/>
-	-->
-
-	<project path="kernel/samsung/vivalto3gvn" name="ngoquang2708/android_kernel_samsung_vivalto3gvn" remote="private" revision="cm-14.0"/>
-
-	<project path="device/samsung/vivalto3gvn" name="ngoquang2708/android_device_samsung_vivalto3gvn" remote="private" revision="staging/cm-14.0"/>
-
-	<project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="cm-14.0"/>
-
-	<project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="cm-14.0"/>
-
-	<project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="cm-14.0"/>
-
-	<project path="bootable/recovery-twrp" name="ngoquang2708/android_bootable_recovery-twrp" remote="private" revision="cm-14.0"/>
+  <project path="bootable/recovery-twrp" name="ngoquang2708/android_bootable_recovery-twrp" remote="private" revision="cm-14.0"/>
+  <project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="cm-14.0"/>
+  <project path="device/samsung/vivalto3gvn" name="ngoquang2708/android_device_samsung_vivalto3gvn" remote="private" revision="staging/cm-14.0"/>
+  <project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="cm-14.0"/>
+  <project path="kernel/samsung/vivalto3gvn" name="ngoquang2708/android_kernel_samsung_vivalto3gvn" remote="private" revision="cm-14.0"/>
+  <project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="cm-14.0"/>
 </manifest>
