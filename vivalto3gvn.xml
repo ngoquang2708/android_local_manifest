@@ -32,6 +32,7 @@
   <project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="cm-14.1" />
   <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="cm-14.1" />
   <project path="hardware/libhardware" name="ngoquang2708/android_hardware_libhardware" remote="private" revision="cm-14.1" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="cm-14.1" />
   <project path="system/core" name="ngoquang2708/android_system_core" remote="private" revision="cm-14.1" />
   <project path="system/media" name="ngoquang2708/android_system_media" remote="private" revision="cm-14.1" />
 
