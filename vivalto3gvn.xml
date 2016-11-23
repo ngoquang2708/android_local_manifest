@@ -27,7 +27,7 @@
 
   <project path="build" name="ngoquang2708/android_build" remote="private" revision="cm-14.1" />
   <project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="cm-14.1" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.1" />
   <project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="cm-14.1" />
   <project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="cm-14.1" />
   <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="cm-14.1" />
