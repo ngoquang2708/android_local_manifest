@@ -17,7 +17,6 @@
 -->
 <manifest>
   <remove-project name="CyanogenMod/android_build" />
-  <remove-project name="CyanogenMod/android_external_tinyalsa" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
@@ -26,7 +25,6 @@
   <remove-project name="CyanogenMod/android_system_media" />
 
   <project path="build" name="ngoquang2708/android_build" remote="private" revision="cm-14.1" />
-  <project path="external/tinyalsa" name="ngoquang2708/android_external_tinyalsa" remote="private" revision="cm-14.1" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.1" />
   <project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="cm-14.1" />
   <project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="cm-14.1" />
