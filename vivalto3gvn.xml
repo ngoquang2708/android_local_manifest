@@ -19,14 +19,12 @@
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_system_media" />
 
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.1" />
   <project path="frameworks/av" name="ngoquang2708/android_frameworks_av" remote="private" revision="cm-14.1" />
   <project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="cm-14.1" />
   <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="cm-14.1" />
-  <project path="hardware/libhardware" name="ngoquang2708/android_hardware_libhardware" remote="private" revision="cm-14.1" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="cm-14.1" />
   <project path="system/media" name="ngoquang2708/android_system_media" remote="private" revision="cm-14.1" />
 
