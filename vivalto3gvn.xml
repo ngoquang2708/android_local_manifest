@@ -16,11 +16,9 @@
      limitations under the License.
 -->
 <manifest>
-  <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.1" />
-  <project path="frameworks/base" name="ngoquang2708/android_frameworks_base" remote="private" revision="cm-14.1" />
   <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="cm-14.1" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="cm-14.1" />
 
