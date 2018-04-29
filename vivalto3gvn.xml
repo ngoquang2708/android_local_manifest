@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-     Copyright (C) 2016 The Android Open Source Project
-     Copyright (C) 2016 The CyanogenMod Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
 <manifest>
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <!--
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="lineage-15.1" />
+  <project path="bootable/recovery-twrp" name="ngoquang2708/android_bootable_recovery-twrp" remote="private" revision="lineage-15.1" />
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" revision="lineage-15.1" />
+  -->
 
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.1" />
-  <project path="frameworks/opt/telephony" name="ngoquang2708/android_frameworks_opt_telephony" remote="private" revision="cm-14.1" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="cm-14.1" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" revision="lineage-15.1" />
 
-  <project path="bootable/recovery-twrp" name="ngoquang2708/android_bootable_recovery-twrp" remote="private" revision="cm-14.1" />
-  <project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="cm-14.1" />
-  <project path="device/samsung/vivalto3gvn" name="ngoquang2708/android_device_samsung_vivalto3gvn" remote="private" revision="cm-14.1" />
-  <project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="cm-14.1"/>
-  <project path="kernel/samsung/vivalto3gvn" name="ngoquang2708/android_kernel_samsung_vivalto3gvn" remote="private" revision="cm-14.1" />
-  <project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="cm-14.1" />
+  <project path="device/samsung/sprd-common" name="ngoquang2708/android_device_samsung_sprd-common" remote="private" revision="lineage-15.1" />
+  <project path="device/samsung/vivalto3gvn" name="ngoquang2708/android_device_samsung_vivalto3gvn" remote="private" revision="lineage-15.1" />
+  <project path="hardware/sprd" name="ngoquang2708/android_hardware_sprd" remote="private" revision="lineage-15.1"/>
+  <project path="kernel/samsung/vivalto3gvn" name="ngoquang2708/android_kernel_samsung_vivalto3gvn" remote="private" revision="lineage-15.1" />
+  <project path="vendor/samsung/vivalto3gvn" name="ngoquang2708/android_vendor_samsung_vivalto3gvn" remote="private" revision="lineage-15.1" />
 </manifest>
